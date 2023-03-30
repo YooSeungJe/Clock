@@ -1,0 +1,22 @@
+<div id="wrapper">
+    <form>
+      <label><input type="text" id="startMin" />분</label>  
+      <label><input type="text" id="startSec" />초</label>  
+      <input
+        type="button"
+        value="START"
+        class="start-btn"
+        onclick="startTimer()" 
+      />
+      <input
+        type="button"
+        value="RESET"
+        class="reset-btn"
+        onclick="resetTimer()" 
+      />
+    </form>
+    <hr />
+    <div id="display" class="remaining"></div> 
+  </div>
+    <script src="timer.js"></script> 
+  </body>
